@@ -14,7 +14,7 @@ import json
 from paho.mqtt import client as mqtt_client
 from wsnHybrid import WsnHybrid
 
-broker = 'localhost'
+broker = '0.0.0.0'
 port = 1883
 topic = "mqtt/wsn"
 # generate client ID with pub prefix randomly
@@ -32,7 +32,7 @@ mode_counter = 0
 wsn_lib = WsnHybrid(wsn_xmode,threshold_xtemp,threshold_start,threshold_stop)
 
 
-wsn_object = wsn_lib.orchestrator(30) # Call the orchestrator function in the wsn lib
+wsn_mode = wsn_lib.orchestrator(30) # Call the orchestrator function in the wsn lib
 
 def connect_mqtt() -> mqtt_client:
     def on_connect(client, userdata, flags, rc):
@@ -57,9 +57,8 @@ def subscribe(client: mqtt_client):
         data = json.loads(x)
         print("Temp Received:",data)
         
-
-        wsn_object = wsn_lib.orchestrator(data)
-       
+        wsn_mode = wsn_lib.orchestrator(data)
+        print("in wsn node file mode is:",wsn_mode)
         
     client.subscribe(topic)
     client.on_message = on_message

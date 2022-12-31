@@ -1,0 +1,17 @@
+version: "3"
+services:
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: mqtt-broker
+    network_mode: "host"
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./conf:/mosquitto/config
+      - ./data:/mosquitto/data
+      - ./log:/mosquitto/log
+  
+  temperaturesimulator:
+    build: ./sourcecode/tempsimulator
+    container_name: temperature-simulator
+    network_mode: "host"

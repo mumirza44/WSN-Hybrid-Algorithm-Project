@@ -15,7 +15,7 @@ import random
 from paho.mqtt import client as mqtt_client
 import json
 
-broker = 'localhost'
+broker = '0.0.0.0'
 port = 1883
 topic = "mqtt/wsn"
 client_id = f'python-mqtt-{random.randint(0, 1000)}'

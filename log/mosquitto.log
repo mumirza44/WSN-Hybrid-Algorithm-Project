@@ -1,0 +1,67 @@
+1672475297: mosquitto version 2.0.15 starting
+1672475297: Config loaded from /mosquitto/config/mosquitto.conf.
+1672475297: Opening ipv4 listen socket on port 1883.
+1672475297: mosquitto version 2.0.15 running
+1672475400: New connection from 127.0.0.1:49705 on port 1883.
+1672475400: New client connected from 127.0.0.1:49705 as python-mqtt-937 (p2, c1, k60).
+1672475407: Client python-mqtt-937 closed its connection.
+1672475422: mosquitto version 2.0.15 terminating
+1672475422: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1672475437: mosquitto version 2.0.15 starting
+1672475437: Config loaded from /mosquitto/config/mosquitto.conf.
+1672475437: Opening ipv4 listen socket on port 1883.
+1672475437: mosquitto version 2.0.15 running
+1672475437: New connection from 127.0.0.1:40399 on port 1883.
+1672475437: New client connected from 127.0.0.1:40399 as python-mqtt-415 (p2, c1, k60).
+1672475773: New connection from 127.0.0.1:53853 on port 1883.
+1672475773: New client connected from 127.0.0.1:53853 as python-mqtt-9 (p2, c1, k60).
+1672475783: Client python-mqtt-9 closed its connection.
+1672477237: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1672478506: mosquitto version 2.0.15 terminating
+1672478506: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1672478549: mosquitto version 2.0.15 starting
+1672478549: Config loaded from /mosquitto/config/mosquitto.conf.
+1672478549: Opening ipv4 listen socket on port 1883.
+1672478549: mosquitto version 2.0.15 running
+1672478549: New connection from 127.0.0.1:46545 on port 1883.
+1672478549: New client connected from 127.0.0.1:46545 as python-mqtt-422 (p2, c1, k60).
+1672478557: mosquitto version 2.0.15 terminating
+1672478557: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1672479092: mosquitto version 2.0.15 starting
+1672479092: Config loaded from /mosquitto/config/mosquitto.conf.
+1672479092: Opening ipv4 listen socket on port 1883.
+1672479092: mosquitto version 2.0.15 running
+1672479172: mosquitto version 2.0.15 terminating
+1672479172: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1672479196: mosquitto version 2.0.15 starting
+1672479196: Config loaded from /mosquitto/config/mosquitto.conf.
+1672479196: Opening ipv4 listen socket on port 1883.
+1672479196: mosquitto version 2.0.15 running
+1672479212: mosquitto version 2.0.15 terminating
+1672479212: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1672479436: mosquitto version 2.0.15 starting
+1672479436: Config loaded from /mosquitto/config/mosquitto.conf.
+1672479436: Opening ipv4 listen socket on port 1883.
+1672479436: mosquitto version 2.0.15 running
+1672479455: mosquitto version 2.0.15 terminating
+1672479455: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1672479459: mosquitto version 2.0.15 starting
+1672479459: Config loaded from /mosquitto/config/mosquitto.conf.
+1672479459: Opening ipv4 listen socket on port 1883.
+1672479459: mosquitto version 2.0.15 running
+1672479461: mosquitto version 2.0.15 terminating
+1672479461: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1672479636: mosquitto version 2.0.15 starting
+1672479636: Config loaded from /mosquitto/config/mosquitto.conf.
+1672479636: Opening ipv4 listen socket on port 1883.
+1672479636: mosquitto version 2.0.15 running
+1672479636: New connection from 127.0.0.1:34541 on port 1883.
+1672479636: New client connected from 127.0.0.1:34541 as python-mqtt-506 (p2, c1, k60).
+1672479642: mosquitto version 2.0.15 terminating
+1672479642: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1672479664: mosquitto version 2.0.15 starting
+1672479664: Config loaded from /mosquitto/config/mosquitto.conf.
+1672479664: Opening ipv4 listen socket on port 1883.
+1672479664: mosquitto version 2.0.15 running
+1672479664: New connection from 127.0.0.1:59607 on port 1883.
+1672479664: New client connected from 127.0.0.1:59607 as python-mqtt-3 (p2, c1, k60).

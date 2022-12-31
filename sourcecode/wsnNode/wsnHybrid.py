@@ -29,12 +29,12 @@ class WsnHybrid:
         print("Current Temperature:",current_temp)
         
         print("Reading Counter file")
-        f = open("/home/mustafa/wsn/WSN-Hybrid-Algorithm-Project/counter.txt", "r")
+        f = open("counter.txt", "r")
         mode_counter = int((f.read()))
 
         print("Reading mode Counter from file",mode_counter)
 
-        if self.wsn_mode == "event-driven":    
+        if self.wsn_mode == "event-driven":   
             print("Event Driven Mode")
 
             if current_temp >= self.threshold_temp:
@@ -51,6 +51,7 @@ class WsnHybrid:
                 print("Message: Switching Mode to Time Driven")
                 print("**************************************")
                 self.wsn_mode = "time-driven" # Call time driven function
+                return self.wsn_mode
             else:
                 print("Message: Below Threshold mode still set to Event Driven")
                 pass
@@ -71,6 +72,7 @@ class WsnHybrid:
                 print("Message: Switching Mode to Event Driven")
                 print("***************************************")
                 self.wsn_mode = "event-driven" # Call event driven function
+                return self.wsn_mode
             else:
                 print("Message: Above Threshold, Mode still set to Time Driven")
                 pass
@@ -85,7 +87,7 @@ class WsnHybrid:
     def update_counter(self,mode_counter):
         """Function to update the counter file"""
 
-        f = open("/home/mustafa/wsn/WSN-Hybrid-Algorithm-Project/counter.txt", "w")
+        f = open("counter.txt", "w")
         f.write(str(mode_counter))
         f.close()
 
