@@ -13,7 +13,6 @@
 import time
 import random
 from paho.mqtt import client as mqtt_client
-import json
 
 broker = '0.0.0.0'
 port = 1883
@@ -41,8 +40,8 @@ def publish(client):
          time.sleep(1)
        
 
-         msg = random.randint(40, 49)
-         #msg = random.randint(51, 60)
+         #msg = random.randint(40, 49)
+         msg = random.randint(51, 60)
          
          print(msg)
          result = client.publish(topic, msg)

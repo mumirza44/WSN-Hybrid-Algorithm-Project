@@ -10,10 +10,9 @@
 
 FROM python:3.7.16-slim-bullseye
 
-#WORKDIR /../../sourcecode
-
-RUN pip install paho-mqtt
+RUN pip install flask
+RUN pip install requests
 
 COPY . .
 
-CMD [ "python","-u","./temperatureSimulator.py" ]
+CMD [ "python","-u","./wsnNode.py" ]

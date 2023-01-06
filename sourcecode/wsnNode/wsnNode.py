@@ -13,6 +13,7 @@ import random
 import json
 from paho.mqtt import client as mqtt_client
 from wsnHybrid import WsnHybrid
+import requests
 
 broker = '0.0.0.0'
 port = 1883
@@ -27,11 +28,11 @@ threshold_xtemp = 50
 threshold_start = 5
 threshold_stop = 4
 mode_counter = 0
+timedriven_interval = 10
+#node = 
 
 # Create wsn library object
-wsn_lib = WsnHybrid(wsn_xmode,threshold_xtemp,threshold_start,threshold_stop)
-
-
+wsn_lib = WsnHybrid(wsn_xmode,threshold_xtemp,threshold_start,threshold_stop,timedriven_interval)
 wsn_mode = wsn_lib.orchestrator(30) # Call the orchestrator function in the wsn lib
 
 def connect_mqtt() -> mqtt_client:
