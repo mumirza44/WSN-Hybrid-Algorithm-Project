@@ -11,8 +11,9 @@
 FROM python:3.7.16-slim-bullseye
 
 #WORKDIR /../../sourcecode
-
+#RUN mkdir app
 RUN pip install flask
+#WORKDIR /app
 COPY . .
 
 CMD [ "python","-u","./basestation.py" ]

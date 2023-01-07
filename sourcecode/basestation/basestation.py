@@ -9,15 +9,16 @@
 """Basestation data collection api Server"""
 # ---
 
-
+import json
 from flask import make_response
 from flask import Flask, render_template, request
-import json
 
 #Define FLASK APP
 app = Flask(__name__)
 
 
+open('/output/basestation_output.json', 'w').close() # RESET Output file
+    
 
 
 @app.route("/basestation", methods = ['POST']) # URL: http://localhost:5070/basestation  [POST]
@@ -27,6 +28,10 @@ def basestation():
     request_data = request.get_json() # Get the JSON response in the variable 
     print(json.dumps(request_data,indent=2))
     
+    with open("/output/basestation_output.json", "a") as basestation_output:
+        json.dump(request_data, basestation_output, indent=3)
+        basestation_output.write('\n\n')
+
     return request_data # Return the output
 
 

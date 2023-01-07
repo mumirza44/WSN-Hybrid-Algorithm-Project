@@ -1,0 +1,49 @@
+{
+   "temperature": 54,
+   "timestamp": "2023-01-07 12:21:35.365852",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "temperature": 55,
+   "timestamp": "2023-01-07 12:21:37.391190",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "temperature": 57,
+   "timestamp": "2023-01-07 12:21:39.404508",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "temperature": 57,
+   "timestamp": "2023-01-07 12:21:41.423214",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "temperature": 56,
+   "timestamp": "2023-01-07 12:21:43.434171",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "temperature": 54,
+   "timestamp": "2023-01-07 12:21:43.450632",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "temperature": 53,
+   "timestamp": "2023-01-07 12:21:55.476431",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+

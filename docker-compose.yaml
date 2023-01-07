@@ -15,3 +15,12 @@ services:
     build: ./sourcecode/tempsimulator
     container_name: temperature-simulator
     network_mode: "host"
+  
+  basestation:
+    build: ./sourcecode/basestation
+    container_name: basestation
+    network_mode: "host"
+    ports:
+      - "5070:5070"
+    volumes:
+      - ./output:/output
