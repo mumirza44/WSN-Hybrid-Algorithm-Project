@@ -44,7 +44,7 @@ class WsnHybrid:
                 mode_counter = mode_counter + 1
                 self.update_counter(mode_counter) # Update the counter file by calling the update counter function
                 print("Counter",mode_counter)
-                self.data_reporting(current_temp,"Event Reporting: Temperature Above 50") # Start Reporting Event data by calling the data_reporting function
+                self.data_reporting(current_temp,"Event Reporting: Temperature Above 50",self.node_id) # Start Reporting Event data by calling the data_reporting function
                 
             else:
                 mode_counter = 0
@@ -64,7 +64,7 @@ class WsnHybrid:
         elif self.wsn_mode == "time-driven":
             print("Time Driven Mode")
             
-            self.data_reporting(current_temp,"Time Driven Reporting: Every "+str(self.timedriven_interval)+" Seconds") # Start Reporting data every x seconds calling the data_reporting function
+            self.data_reporting(current_temp,"Time Driven Reporting: Every "+str(self.timedriven_interval)+" Seconds",self.node_id) # Start Reporting data every x seconds calling the data_reporting function
             
             time.sleep(self.timedriven_interval)
     
@@ -117,11 +117,12 @@ class WsnHybrid:
 
         return None
 
-    def data_reporting(self,tempdata,description):
+    def data_reporting(self,tempdata,description,node_id):
         """Send event data over HTTP Post to the Basestation REST API server"""
         
         date_time = str(datetime.now()) # Create Timestamp
         data = {
+            "wsnNode" : node_id,
             "temperature" : tempdata,
             "timestamp": date_time,      
             "mode": self.wsn_mode,

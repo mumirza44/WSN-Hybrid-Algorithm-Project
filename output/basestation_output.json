@@ -1,48 +1,1359 @@
 {
-   "temperature": 54,
-   "timestamp": "2023-01-07 12:21:35.365852",
+   "wsnNode": "Node04",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:01:52.888061",
    "mode": "event-driven",
    "description": "Event Reporting: Temperature Above 50"
 }
 
 {
+   "wsnNode": "Node08",
+   "temperature": 60,
+   "timestamp": "2023-01-13 08:01:52.895514",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:01:52.909343",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:01:52.910001",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:01:52.909340",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:01:52.915507",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:01:52.921210",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:01:53.205983",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:01:53.231754",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:01:53.247916",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:01:54.916484",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node08",
    "temperature": 55,
-   "timestamp": "2023-01-07 12:21:37.391190",
+   "timestamp": "2023-01-13 08:01:54.918127",
    "mode": "event-driven",
    "description": "Event Reporting: Temperature Above 50"
 }
 
 {
-   "temperature": 57,
-   "timestamp": "2023-01-07 12:21:39.404508",
+   "wsnNode": "Node07",
+   "temperature": 59,
+   "timestamp": "2023-01-13 08:01:54.926487",
    "mode": "event-driven",
    "description": "Event Reporting: Temperature Above 50"
 }
 
 {
-   "temperature": 57,
-   "timestamp": "2023-01-07 12:21:41.423214",
-   "mode": "event-driven",
-   "description": "Event Reporting: Temperature Above 50"
-}
-
-{
-   "temperature": 56,
-   "timestamp": "2023-01-07 12:21:43.434171",
-   "mode": "event-driven",
-   "description": "Event Reporting: Temperature Above 50"
-}
-
-{
+   "wsnNode": "Node06",
    "temperature": 54,
-   "timestamp": "2023-01-07 12:21:43.450632",
+   "timestamp": "2023-01-13 08:01:54.920998",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:01:54.917300",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:01:54.927563",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:01:54.932490",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:01:55.215778",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:01:55.244044",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 55,
+   "timestamp": "2023-01-13 08:01:55.260297",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:01:56.935468",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 60,
+   "timestamp": "2023-01-13 08:01:56.941056",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:01:56.942760",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:01:56.943052",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:01:56.942818",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 54,
+   "timestamp": "2023-01-13 08:01:56.945937",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:01:56.945356",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:01:57.222110",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:01:57.251750",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:01:57.269722",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 60,
+   "timestamp": "2023-01-13 08:01:58.943582",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:01:58.951074",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:01:58.951706",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 55,
+   "timestamp": "2023-01-13 08:01:58.952821",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 59,
+   "timestamp": "2023-01-13 08:01:58.960362",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 60,
+   "timestamp": "2023-01-13 08:01:58.960332",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:01:58.960483",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:01:59.232898",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:01:59.259139",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:01:59.277146",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:02:00.955302",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:02:00.960223",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:02:00.963685",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 54,
+   "timestamp": "2023-01-13 08:02:00.969027",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 54,
+   "timestamp": "2023-01-13 08:02:00.966237",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 60,
+   "timestamp": "2023-01-13 08:02:00.971678",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 55,
+   "timestamp": "2023-01-13 08:02:00.972474",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:02:00.982064",
    "mode": "time-driven",
    "description": "Time Driven Reporting: Every 10 Seconds"
 }
 
 {
+   "wsnNode": "Node04",
    "temperature": 53,
-   "timestamp": "2023-01-07 12:21:55.476431",
+   "timestamp": "2023-01-13 08:02:00.971986",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:02:00.984799",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:02:00.985188",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:02:00.987759",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 55,
+   "timestamp": "2023-01-13 08:02:00.992684",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:02:01.001622",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:02:01.251009",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:02:01.265068",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:02:01.267841",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:02:01.279330",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:02:01.284452",
+   "mode": "event-driven",
+   "description": "Event Reporting: Temperature Above 50"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:02:01.293059",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 54,
+   "timestamp": "2023-01-13 08:02:13.014628",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:02:13.014724",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 59,
+   "timestamp": "2023-01-13 08:02:13.014883",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:02:13.014638",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:02:13.015625",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:02:13.015530",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:02:13.015366",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:02:13.287684",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:02:13.300850",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:02:13.310548",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:02:25.035969",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:02:25.035314",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:02:25.035423",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 59,
+   "timestamp": "2023-01-13 08:02:25.035314",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:02:25.035314",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 55,
+   "timestamp": "2023-01-13 08:02:25.044065",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:02:25.035597",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 59,
+   "timestamp": "2023-01-13 08:02:25.305102",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:02:25.318321",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:02:25.328022",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 55,
+   "timestamp": "2023-01-13 08:02:37.046011",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:02:37.056043",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 59,
+   "timestamp": "2023-01-13 08:02:37.056239",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:02:37.056260",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 60,
+   "timestamp": "2023-01-13 08:02:37.063545",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:02:37.065831",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:02:37.068106",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 55,
+   "timestamp": "2023-01-13 08:02:37.324023",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 59,
+   "timestamp": "2023-01-13 08:02:37.335989",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:02:37.346657",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:02:49.064559",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:02:49.072868",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 54,
+   "timestamp": "2023-01-13 08:02:49.077457",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 59,
+   "timestamp": "2023-01-13 08:02:49.077412",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 59,
+   "timestamp": "2023-01-13 08:02:49.077489",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 55,
+   "timestamp": "2023-01-13 08:02:49.077430",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:02:49.082721",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 54,
+   "timestamp": "2023-01-13 08:02:49.343280",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:02:49.356214",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:02:49.368058",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:03:01.086538",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:03:01.086167",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:03:01.097144",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:03:01.098836",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:03:01.106397",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:03:01.106381",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:03:01.108452",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:03:01.366082",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:03:01.376870",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:03:01.392976",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:03:13.115347",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:03:13.115676",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:03:13.120991",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:03:13.124560",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 60,
+   "timestamp": "2023-01-13 08:03:13.125587",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:03:13.125563",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:03:13.135202",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 55,
+   "timestamp": "2023-01-13 08:03:13.388265",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:03:13.390607",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 54,
+   "timestamp": "2023-01-13 08:03:13.412814",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 55,
+   "timestamp": "2023-01-13 08:03:25.134366",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:03:25.134396",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:03:25.134398",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:03:25.134740",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:03:25.134721",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:03:25.144949",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:03:25.135082",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:03:25.416998",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:03:25.416998",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:03:25.425164",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:03:37.152752",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:03:37.152753",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:03:37.153744",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:03:37.153837",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 55,
+   "timestamp": "2023-01-13 08:03:37.155887",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 54,
+   "timestamp": "2023-01-13 08:03:37.162409",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 59,
+   "timestamp": "2023-01-13 08:03:37.165537",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 55,
+   "timestamp": "2023-01-13 08:03:37.436381",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 59,
+   "timestamp": "2023-01-13 08:03:37.436166",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:03:37.436747",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 59,
+   "timestamp": "2023-01-13 08:03:49.181927",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:03:49.181960",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:03:49.186258",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 60,
+   "timestamp": "2023-01-13 08:03:49.186697",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:03:49.184863",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:03:49.187309",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:03:49.183634",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:03:49.462231",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 55,
+   "timestamp": "2023-01-13 08:03:49.466324",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:03:49.469165",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 60,
+   "timestamp": "2023-01-13 08:04:01.209784",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:04:01.215951",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 55,
+   "timestamp": "2023-01-13 08:04:01.218098",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:04:01.224870",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 59,
+   "timestamp": "2023-01-13 08:04:01.219814",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:04:01.225382",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:04:01.225790",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 60,
+   "timestamp": "2023-01-13 08:04:01.481940",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 51,
+   "timestamp": "2023-01-13 08:04:01.485919",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 56,
+   "timestamp": "2023-01-13 08:04:01.486063",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node09",
+   "temperature": 57,
+   "timestamp": "2023-01-13 08:04:13.233387",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node10",
+   "temperature": 54,
+   "timestamp": "2023-01-13 08:04:13.239822",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node06",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:04:13.241304",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node05",
+   "temperature": 54,
+   "timestamp": "2023-01-13 08:04:13.241953",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node07",
+   "temperature": 59,
+   "timestamp": "2023-01-13 08:04:13.247036",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node04",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:04:13.247560",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node08",
+   "temperature": 58,
+   "timestamp": "2023-01-13 08:04:13.246744",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node02",
+   "temperature": 54,
+   "timestamp": "2023-01-13 08:04:13.521658",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node01",
+   "temperature": 53,
+   "timestamp": "2023-01-13 08:04:13.520941",
+   "mode": "time-driven",
+   "description": "Time Driven Reporting: Every 10 Seconds"
+}
+
+{
+   "wsnNode": "Node03",
+   "temperature": 52,
+   "timestamp": "2023-01-13 08:04:13.521655",
    "mode": "time-driven",
    "description": "Time Driven Reporting: Every 10 Seconds"
 }

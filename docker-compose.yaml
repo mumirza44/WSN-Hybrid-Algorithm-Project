@@ -1,21 +1,8 @@
 version: "3"
 services:
-  mosquitto:
-    image: eclipse-mosquitto:latest
-    container_name: mqtt-broker
-    network_mode: "host"
-    ports:
-      - "1883:1883"
-    volumes:
-      - ./conf:/mosquitto/config
-      - ./data:/mosquitto/data
-      - ./log:/mosquitto/log
-  
-  temperaturesimulator:
-    build: ./sourcecode/tempsimulator
-    container_name: temperature-simulator
-    network_mode: "host"
-  
+
+# BaseStation REST API Server
+
   basestation:
     build: ./sourcecode/basestation
     container_name: basestation
@@ -25,9 +12,143 @@ services:
     volumes:
       - ./output:/output
   
+# WSN Nodes
+
   node01:
     build: ./sourcecode/wsnNode
     container_name: node01
     network_mode: "host"
     environment:
-      node_id: "Node01"
+      threshold_temp:  50       # Threshold Temperature
+      threshold_start: 5        # Starting Time driven mode Counter Threshold
+      threshold_stop: 4         # Starting Time driven mode Counter Threshold
+      timedriven_interval: 10   # Time Driven Data Reporting interval
+      node_id: "Node01"         # wsn node id
+      temp_start: "51"          # Temperature simulator starting range
+      temp_stop: "60"           # Temperature simulator stopping range
+
+  node02:
+    build: ./sourcecode/wsnNode
+    container_name: node02
+    network_mode: "host"
+    environment:
+      threshold_temp:  50       # Threshold Temperature
+      threshold_start: 5        # Starting Time driven mode Counter Threshold
+      threshold_stop: 4         # Starting Time driven mode Counter Threshold
+      timedriven_interval: 10   # Time Driven Data Reporting interval
+      node_id: "Node02"         # wsn node id
+      temp_start: "51"          # Temperature simulator starting range
+      temp_stop: "60"           # Temperature simulator stopping range
+
+
+  node03:
+    build: ./sourcecode/wsnNode
+    container_name: node03
+    network_mode: "host"
+    environment:
+      threshold_temp:  50       # Threshold Temperature
+      threshold_start: 5        # Starting Time driven mode Counter Threshold
+      threshold_stop: 4         # Starting Time driven mode Counter Threshold
+      timedriven_interval: 10   # Time Driven Data Reporting interval
+      node_id: "Node03"         # wsn node id
+      temp_start: "51"          # Temperature simulator starting range
+      temp_stop: "60"           # Temperature simulator stopping range
+
+
+
+  node04:
+    build: ./sourcecode/wsnNode
+    container_name: node04
+    network_mode: "host"
+    environment:
+      threshold_temp:  50       # Threshold Temperature
+      threshold_start: 5        # Starting Time driven mode Counter Threshold
+      threshold_stop: 4         # Starting Time driven mode Counter Threshold
+      timedriven_interval: 10   # Time Driven Data Reporting interval
+      node_id: "Node04"         # wsn node id
+      temp_start: "51"          # Temperature simulator starting range
+      temp_stop: "60"           # Temperature simulator stopping range
+
+
+  node05:
+    build: ./sourcecode/wsnNode
+    container_name: node05
+    network_mode: "host"
+    environment:
+      threshold_temp:  50       # Threshold Temperature
+      threshold_start: 5        # Starting Time driven mode Counter Threshold
+      threshold_stop: 4         # Starting Time driven mode Counter Threshold
+      timedriven_interval: 10   # Time Driven Data Reporting interval
+      node_id: "Node05"         # wsn node id
+      temp_start: "51"          # Temperature simulator starting range
+      temp_stop: "60"           # Temperature simulator stopping range
+
+
+  node06:
+    build: ./sourcecode/wsnNode
+    container_name: node06
+    network_mode: "host"
+    environment:
+      threshold_temp:  50       # Threshold Temperature
+      threshold_start: 5        # Starting Time driven mode Counter Threshold
+      threshold_stop: 4         # Starting Time driven mode Counter Threshold
+      timedriven_interval: 10   # Time Driven Data Reporting interval
+      node_id: "Node06"         # wsn node id
+      temp_start: "51"          # Temperature simulator starting range
+      temp_stop: "60"           # Temperature simulator stopping range
+
+
+  node07:
+    build: ./sourcecode/wsnNode
+    container_name: node07
+    network_mode: "host"
+    environment:
+      threshold_temp:  50       # Threshold Temperature
+      threshold_start: 5        # Starting Time driven mode Counter Threshold
+      threshold_stop: 4         # Starting Time driven mode Counter Threshold
+      timedriven_interval: 10   # Time Driven Data Reporting interval
+      node_id: "Node07"         # wsn node id
+      temp_start: "51"          # Temperature simulator starting range
+      temp_stop: "60"           # Temperature simulator stopping range
+
+
+  node08:
+    build: ./sourcecode/wsnNode
+    container_name: node08
+    network_mode: "host"
+    environment:
+      threshold_temp:  50       # Threshold Temperature
+      threshold_start: 5        # Starting Time driven mode Counter Threshold
+      threshold_stop: 4         # Starting Time driven mode Counter Threshold
+      timedriven_interval: 10   # Time Driven Data Reporting interval
+      node_id: "Node08"         # wsn node id
+      temp_start: "51"          # Temperature simulator starting range
+      temp_stop: "60"           # Temperature simulator stopping range
+
+
+  node09:
+    build: ./sourcecode/wsnNode
+    container_name: node09
+    network_mode: "host"
+    environment:
+      threshold_temp:  50       # Threshold Temperature
+      threshold_start: 5        # Starting Time driven mode Counter Threshold
+      threshold_stop: 4         # Starting Time driven mode Counter Threshold
+      timedriven_interval: 10   # Time Driven Data Reporting interval
+      node_id: "Node09"         # wsn node id
+      temp_start: "51"          # Temperature simulator starting range
+      temp_stop: "60"           # Temperature simulator stopping range
+
+
+  node10:
+    build: ./sourcecode/wsnNode
+    container_name: node10
+    network_mode: "host"
+    environment:
+      threshold_temp:  50       # Threshold Temperature
+      threshold_start: 5        # Starting Time driven mode Counter Threshold
+      threshold_stop: 4         # Starting Time driven mode Counter Threshold
+      timedriven_interval: 10   # Time Driven Data Reporting interval
+      node_id: "Node10"         # wsn node id
+      temp_start: "51"          # Temperature simulator starting range
+      temp_stop: "60"           # Temperature simulator stopping range
