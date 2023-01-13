@@ -16,14 +16,14 @@ from datetime import datetime
 class WsnHybrid:
     """WSN Project Class"""
 
-    def __init__(self,wsn_mode,threshold_temp,threshold_start_counter,threshold_stop_counter,timedriven_interval):
+    def __init__(self,wsn_mode,threshold_temp,threshold_start_counter,threshold_stop_counter,timedriven_interval,node_id):
         
         self.wsn_mode = wsn_mode
         self.threshold_temp = threshold_temp
         self.threshold_start_counter = threshold_start_counter
         self.threshold_stop_counter = threshold_stop_counter
         self.timedriven_interval = timedriven_interval
-    
+        self.node_id = node_id
 
 
     def orchestrator(self,current_temp):

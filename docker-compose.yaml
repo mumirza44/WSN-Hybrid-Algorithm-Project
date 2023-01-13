@@ -24,3 +24,10 @@ services:
       - "5070:5070"
     volumes:
       - ./output:/output
+  
+  node01:
+    build: ./sourcecode/wsnNode
+    container_name: node01
+    network_mode: "host"
+    environment:
+      node_id: "Node01"

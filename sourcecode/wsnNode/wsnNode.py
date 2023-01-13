@@ -29,7 +29,7 @@ threshold_start = 5
 threshold_stop = 4
 mode_counter = 0
 timedriven_interval = 10
-#node = 
+node_id = 
 
 # Create wsn library object
 wsn_lib = WsnHybrid(wsn_xmode,threshold_xtemp,threshold_start,threshold_stop,timedriven_interval)
